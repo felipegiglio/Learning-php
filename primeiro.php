@@ -1,5 +1,5 @@
 <?php
-    $var = array('felipe', 'lucelia');
+$var = array('felipe', 'lucelia');
     echo $var[0];
     echo '<br>';
 
