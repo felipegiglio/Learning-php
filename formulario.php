@@ -6,17 +6,20 @@
     <title>Formulario</title>
 </head>
 <body>
+    <!-- Diferença entre o post e o get  -->
+    <!-- o get passa informações pela url -->
+    <!-- o post passa informações pela url -->
     <?php
     if(isset($_GET['acao'])){
-        $nome = $_GET['nome'];
-        $email = $_GET['email'];
+        $nome = $_POST['nome'];
+        $email = $_POST['email'];
         echo 'Nome: '.$nome;
         echo '<br>';
         echo 'E-mail: '.$email;
         echo '<hr>';
     }
     ?>
-    <form>
+    <form method="post">
         Nome: <input type="text" name="nome">
         <br>
         <br>
