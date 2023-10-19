@@ -6,11 +6,19 @@
     <title>Formulario</title>
 </head>
 <body>
+    <?php
+        $nome = $_GET['nome'];
+        $email = $_GET['email'];
+        echo 'Nome: '.$nome;
+        echo '<br>';
+        echo 'E-mail: '.$email;
+        echo '<hr>';
+    ?>
     <form>
-        <input type="text" name="nome">
+        Nome: <input type="text" name="nome">
         <br>
         <br>
-        <input type="text" name="email">
+        E-mail: <input type="text" name="email">
         <br>
         <br>
         <input type="submit" name="acao" value="Enviar">
