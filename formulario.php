@@ -7,12 +7,14 @@
 </head>
 <body>
     <?php
+    if(isset($_GET['acao'])){
         $nome = $_GET['nome'];
         $email = $_GET['email'];
         echo 'Nome: '.$nome;
         echo '<br>';
         echo 'E-mail: '.$email;
         echo '<hr>';
+    }
     ?>
     <form>
         Nome: <input type="text" name="nome">
