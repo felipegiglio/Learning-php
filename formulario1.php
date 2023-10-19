@@ -12,7 +12,7 @@
     }
     // isset verifica se a variavel e verdadeira ou falsa
     ?>
-    <form action="" method="post">
+    <form method="post">
         <input type="text" name="numero1">
         <input type="text" name="numero2">
         <input type="submit" name="acao" value="Enviar">
