@@ -8,5 +8,6 @@
     class Principal extends Teste{
 
     }
+
     $pricipal = new Principal;
     $pricipal-> funcao();
